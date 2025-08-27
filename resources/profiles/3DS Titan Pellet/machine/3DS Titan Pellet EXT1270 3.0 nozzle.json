@@ -1,0 +1,18 @@
+{
+  "type": "machine",
+  "setting_id": "GTP_EXT1270_30",
+  "name": "3DS Titan Pellet EXT1270 3.0 nozzle",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_machine_common",
+  "printer_model": "3DS Titan Pellet EXT1270",
+  "nozzle_diameter": ["3.0"],
+  "printer_variant": "3.0 nozzle",
+  "printable_area": [
+    "0x0",
+    "1270x0",
+    "1270x1270",
+    "0x1270"
+  ],
+  "printable_height": "1270"
+}
