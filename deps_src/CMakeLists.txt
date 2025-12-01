@@ -17,7 +17,9 @@ add_subdirectory(stb_dxt)     # Header-only STB DXT compression library
 add_subdirectory(Shiny)
 add_subdirectory(admesh)
 add_subdirectory(clipper)
-add_subdirectory(expat)
+if(NOT TARGET expat)
+    add_subdirectory(expat)
+endif()
 add_subdirectory(glu-libtess)
 add_subdirectory(hidapi)
 add_subdirectory(hints)        # Hints library with utility executable

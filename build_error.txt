@@ -1,0 +1,523 @@
+build type set to Release
+"building Orca Slicer..."
+
+C:\Users\MungoA\OneDrive - 3D Systems\myCODE\AntiG_\EXTapp\Orca\build>set CMAKE_POLICY_VERSION_MINIMUM=3.5 
+
+C:\Users\MungoA\OneDrive - 3D Systems\myCODE\AntiG_\EXTapp\Orca\build>cmake .. -G Ninja -DORCA_TOOLS=ON  -DCMAKE_BUILD_TYPE=Release 
+-- SLIC3R_ASAN: OFF
+-- SLIC3R_BUILD_SANDBOXES: OFF
+-- SLIC3R_DESKTOP_INTEGRATION: ON
+-- SLIC3R_ENC_CHECK: ON
+-- SLIC3R_FHS: OFF
+-- SLIC3R_GTK: 3
+-- SLIC3R_GUI: ON
+-- SLIC3R_MSVC_COMPILE_PARALLEL: ON
+-- SLIC3R_MSVC_PDB: ON
+-- SLIC3R_PCH: ON
+-- SLIC3R_PROFILE: OFF
+-- SLIC3R_STATIC: ON
+-- SLIC3R_WX_STABLE: OFF
+-- CMAKE_INSTALL_PREFIX: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/build/OrcaSlicer
+-- DEP_BUILD_DIR: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build (from cache or command line)
+-- CMAKE_PREFIX_PATH: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local (from cache or command line)
+-- PROJECT_SOURCE_DIR: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca
+-- CMAKE_MODULE_PATH: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/cmake/modules/
+Building with Win10 Netfabb STL fixing service support
+-- LIBDIR: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/src
+-- LIBDIR_BIN: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/build/src
+-- TBB found in C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/cmake/TBB
+-- Could NOT find EXPAT (missing: EXPAT_LIBRARY EXPAT_INCLUDE_DIR) 
+GLEW_ROOT: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local
+-- FindGLEW: GLEW_USE_STATIC_LIBS: ON.
+-- FindGLEW: GLEW_INCLUDE_DIR: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/include
+-- FindGLEW: GLEW_INCLUDE_DIRS: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/include
+-- FindGLEW: CMAKE_FIND_LIBRARY_SUFFIXES for SHARED: .lib
+-- FindGLEW: CMAKE_FIND_LIBRARY_SUFFIXES for STATIC: .lib;.a;.dll.a
+-- FindGLEW: GLEW_SHARED_LIBRARY_RELEASE: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEW.lib
+-- FindGLEW: GLEW_STATIC_LIBRARY_RELEASE: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEW.lib
+-- FindGLEW: GLEW_SHARED_LIBRARY_DEBUG: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEWd.lib
+-- FindGLEW: GLEW_STATIC_LIBRARY_DEBUG: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEWd.lib
+-- FindGLEW: GLEW_SHARED_LIBRARY: optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEW.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEWd.lib
+-- FindGLEW: GLEW_STATIC_LIBRARY: optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEW.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEWd.lib
+-- FindGLEW: GLEW_LIBRARIES: optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEW.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/GLEWd.lib
+-- FindGLEW: GLEW_VERSION_MAJOR: 2
+-- FindGLEW: GLEW_VERSION_MINOR: 2
+-- FindGLEW: GLEW_VERSION_MICRO: 0
+-- FindGLEW: GLEW_VERSION: 2.2.0
+-- FindGLEW: Creating GLEW::glew_s imported target.
+-- FindGLEW: Creating GLEW::GLEW imported target.
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:725 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:740 (add_custom_command):
+  The following keywords are not supported when using
+  add_custom_command(TARGET): DEPENDS.
+
+  Policy CMP0175 is not set: add_custom_command() rejects invalid arguments.
+  Run "cmake --help-policy CMP0175" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found NLopt in 'C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib'.
+-- Using NLopt include directory 'C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/include'.
+-- Found NLopt RELEASE library: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/nlopt.lib
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+CMake Warning at cmake/modules/FindOpenVDB.cmake:325 (message):
+  Unable to determine OpenVDB ABI version from OpenVDB installation.  The
+  library major version "8" will be inferred.  If this is not correct, use
+  add_definitions(-DOPENVDB_ABI_VERSION_NUMBER=N)
+Call Stack (most recent call first):
+  CMakeLists.txt:756 (find_package)
+
+
+-- TBB found in C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/cmake/TBB
+CMake Warning (dev) at cmake/modules/FindOpenVDB.cmake:372 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  CMakeLists.txt:756 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/cmake/Boost-1.84.0/BoostConfig.cmake (found version "1.84.0") found components: iostreams system
+-- OpenVDB libraries: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/libopenvdb.lib
+-- SPNAV library NOT found, Spacenavd not supported
+-- IGL NOT found, using bundled version...
+-- [MCUT] version: 1.2.0
+-- [MCUT] MCUT_INCLUDE_DIR=C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps_src/mcut/include
+-- [MCUT] compilation_flags=/W4;/wd26812;/wd4131;/wd4704;/wd4245;/wd4297;/wd4505;/wd4701;/bigobj
+-- [MCUT] preprocessor_defs=-DMCUT_WITH_COMPUTE_HELPER_THREADPOOL=1;-D_CRT_SECURE_NO_WARNINGS
+-- [MCUT] extra_libs=Threads::Threads
+-- [MCUT] create target: name=mcut type=STATIC
+-- [MCUT] MCUT_LIB_PATH=$<TARGET_FILE:mcut>
+-- Minilzo using bundled version...
+-- qhull Version: 7.2.0 (static linking)
+-- Found libnoise include directory: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/include
+-- Found libnoise RELEASE library: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/libnoise_static.lib
+-- Found libnoise DEBUG library: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/libnoise_staticd.lib
+CMake Warning at deps/build/OrcaSlicer_dep/usr/local/lib/cmake/CGAL/CGALConfig.cmake:92 (message):
+  CGAL_DATA_DIR cannot be deduced, set the variable CGAL_DATA_DIR to set the
+  default value of CGAL::data_file_path()
+Call Stack (most recent call first):
+  src/libslic3r/CMakeLists.txt:492 (find_package)
+
+
+-- Visual Leak Detector (VLD) is not found.
+-- Using header-only CGAL
+-- Targetting Ninja
+-- Target build environment supports auto-linking
+-- Using VC toolset 145.
+CMake Warning (dev) at deps/build/OrcaSlicer_dep/usr/local/lib/cmake/CGAL/CGAL_SetupBoost.cmake:20 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  deps/build/OrcaSlicer_dep/usr/local/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake:47 (include)
+  deps/build/OrcaSlicer_dep/usr/local/lib/cmake/CGAL/CGALConfig.cmake:153 (include)
+  src/libslic3r/CMakeLists.txt:492 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found Boost: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/cmake/Boost-1.84.0/BoostConfig.cmake (found suitable version "1.84.0", minimum required is "1.48")
+-- Boost include dirs: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/include/boost-1_84
+-- Boost libraries:    
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: vc18
+-- OpenCV STATIC: ON
+-- Found OpenCV 4.6.0 in C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/x64/vc18/staticlib
+-- DEBUG: _IMPORT_PREFIX=C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local
+-- Adding precompiled header pchheader.hpp to target libslic3r.
+-- WXWIN environment set to: 
+-- wx libs: debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_html.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_html.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_adv.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_adv.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_gl.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_gl.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_core.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_core.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxbase31ud.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxbase31u.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_webview.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_webview.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_aui.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_aui.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxbase31ud_net.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxbase31u_net.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31ud_media.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxmsw31u_media.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxregexud.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/vc_x64_lib/wxregexu.lib;opengl32;glu32;kernel32;user32;gdi32;gdiplus;msimg32;comdlg32;winspool;winmm;shell32;shlwapi;comctl32;ole32;oleaut32;uuid;rpcrt4;advapi32;version;ws2_32;wininet;oleacc;uxtheme;wsock32;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/libpng16_static.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/libpng16_staticd.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/zlib.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/zlibd.lib;optimized;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/jpeg-static.lib;debug;C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/deps/build/OrcaSlicer_dep/usr/local/lib/jpeg-staticd.lib;expat
+-- Adding precompiled header pchheader.hpp to target libslic3r_gui.
+-- libslic3r-CMAKE_BUILD_TYPE: Release
+-- CMAKE_CURRENT_BINARY_DIR: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/build/src
+CMake Warning (dev) at CMakeLists.txt:900 (install):
+  Policy CMP0177 is not set: install() DESTINATION paths are normalized.  Run
+  "cmake --help-policy CMP0177" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (13.3s)
+-- Generating done (2.5s)
+-- Build files have been written to: C:/Users/MungoA/OneDrive - 3D Systems/myCODE/AntiG_/EXTapp/Orca/build
+
+C:\Users\MungoA\OneDrive - 3D Systems\myCODE\AntiG_\EXTapp\Orca\build>cmake --build . --target ALL_BUILD 
+ninja: error: unknown target 'ALL_BUILD'
+C:\Users\MungoA\OneDrive - 3D Systems\myCODE\AntiG_\EXTapp\Orca
+[1/7] Running utility command for encoding-check-libslic3r
+[2/7] Running utility command for encoding-check-libslic3r_gui
+[3/7] Linking CXX executable src\OrcaSlicer_profile_validator.exe
+FAILED: src/OrcaSlicer_profile_validator.exe 
+C:\WINDOWS\system32\cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=src\CMakeFiles\OrcaSlicer_profile_validator.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100261~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\18\PROFES~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\OrcaSlicer_profile_validator.rsp  /out:src\OrcaSlicer_profile_validator.exe /implib:src\OrcaSlicer_profile_validator.lib /pdb:src\OrcaSlicer_profile_validator.pdb /version:0.0 /machine:x64 /MANIFEST:NO /INCREMENTAL:NO /subsystem:console && cd ."
+LINK: command "C:\PROGRA~1\MIB055~1\18\PROFES~1\VC\Tools\MSVC\1450~1.357\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\OrcaSlicer_profile_validator.rsp /out:src\OrcaSlicer_profile_validator.exe /implib:src\OrcaSlicer_profile_validator.lib /pdb:src\OrcaSlicer_profile_validator.pdb /version:0.0 /machine:x64 /MANIFEST:NO /INCREMENTAL:NO /subsystem:console" failed (exit code 1181) with the following output:
+LINK : fatal error LNK1181: cannot open input file 'expat.lib'
+[4/7] Linking CXX static library src\slic3r\libslic3r_gui.lib
+ninja: build stopped: subcommand failed.
