@@ -1,0 +1,23 @@
+{
+    "type": "process",
+    "name": "2.00mm Standard @3DS",
+    "inherits": "fdm_process_common",
+    "from": "system",
+    "instantiation": "true",
+    "layer_height": "1.0",
+    "line_width": "2.2",
+    "compatible_printers": [
+        "3DS EXT800 1P 2.0 nozzle",
+        "3DS EXT800 1P1M 2.0 nozzle",
+        "3DS EXT800 2P 2.0 nozzle",
+        "3DS EXT800 1P1S 2.0 nozzle",
+        "3DS EXT1070 1P 2.0 nozzle",
+        "3DS EXT1070 1P1M 2.0 nozzle",
+        "3DS EXT1070 2P 2.0 nozzle",
+        "3DS EXT1070 1P1S 2.0 nozzle",
+        "3DS EXT1270 1P 2.0 nozzle",
+        "3DS EXT1270 1P1M 2.0 nozzle",
+        "3DS EXT1270 2P 2.0 nozzle",
+        "3DS EXT1270 1P1S 2.0 nozzle"
+    ]
+}

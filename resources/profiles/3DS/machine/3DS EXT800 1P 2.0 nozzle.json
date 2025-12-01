@@ -1,0 +1,23 @@
+{
+    "type": "machine",
+    "name": "3DS EXT800 1P 2.0 nozzle",
+    "inherits": "fdm_machine_common",
+    "from": "system",
+    "instantiation": "true",
+    "printer_model": "3DS EXT800",
+    "printer_variant": "1P 2.0",
+    "nozzle_diameter": [
+        "2.0"
+    ],
+    "printable_area": [
+        "0x0",
+        "800x0",
+        "800x800",
+        "0x800"
+    ],
+    "printable_height": "800",
+    "default_print_profile": "2.00mm Standard @3DS",
+    "default_filament_profile": [
+        "3DS 10CF_ABS @3DS"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "machine_model",
+    "name": "3DS EXT1070",
+    "nozzle_diameter": "2.0",
+    "bed_model": "",
+    "bed_texture": "3DS_bed_texture.svg",
+    "model_id": "EXT1070",
+    "family": "3DS EXT",
+    "machine_tech": "FFF",
+    "default_materials": "3DS 10CF_ABS @3DS"
+}

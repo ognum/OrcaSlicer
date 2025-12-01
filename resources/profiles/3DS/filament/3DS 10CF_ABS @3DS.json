@@ -1,0 +1,50 @@
+{
+    "type": "filament",
+    "filament_id": "3DS_10CF_ABS",
+    "setting_id": "3DS_10CF_ABS",
+    "name": "3DS 10CF_ABS @3DS",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "Generic ABS @System",
+    "filament_type": [
+        "ABS"
+    ],
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "bed_temperature": [
+        "100"
+    ],
+    "bed_temperature_initial_layer_pid": [
+        "100"
+    ],
+    "fan_cooling_layer_time": [
+        "60"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "min_fan_speed": [
+        "0"
+    ],
+    "max_fan_speed": [
+        "0"
+    ],
+    "compatible_printers": [
+        "3DS EXT800 1P 2.0 nozzle",
+        "3DS EXT800 1P1M 2.0 nozzle",
+        "3DS EXT800 2P 2.0 nozzle",
+        "3DS EXT800 1P1S 2.0 nozzle",
+        "3DS EXT1070 1P 2.0 nozzle",
+        "3DS EXT1070 1P1M 2.0 nozzle",
+        "3DS EXT1070 2P 2.0 nozzle",
+        "3DS EXT1070 1P1S 2.0 nozzle",
+        "3DS EXT1270 1P 2.0 nozzle",
+        "3DS EXT1270 1P1M 2.0 nozzle",
+        "3DS EXT1270 2P 2.0 nozzle",
+        "3DS EXT1270 1P1S 2.0 nozzle"
+    ]
+}

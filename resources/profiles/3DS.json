@@ -1,0 +1,30 @@
+{
+    "name": "3DS",
+    "version": "01.00.00.00",
+    "description": "Profiles for 3DS EXT series large-format printers.",
+    "machine_model_list": [
+        { "name": "3DS EXT800", "sub_path": "machine/3DS EXT800.json" },
+        { "name": "3DS EXT1070", "sub_path": "machine/3DS EXT1070.json" },
+        { "name": "3DS EXT1270", "sub_path": "machine/3DS EXT1270.json" }
+    ],
+    "machine_list": [
+        { "name": "3DS EXT800 1P 2.0 nozzle", "sub_path": "machine/3DS EXT800 1P 2.0 nozzle.json" },
+        { "name": "3DS EXT800 1P1M 2.0 nozzle", "sub_path": "machine/3DS EXT800 1P1M 2.0 nozzle.json" },
+        { "name": "3DS EXT800 2P 2.0 nozzle", "sub_path": "machine/3DS EXT800 2P 2.0 nozzle.json" },
+        { "name": "3DS EXT800 1P1S 2.0 nozzle", "sub_path": "machine/3DS EXT800 1P1S 2.0 nozzle.json" },
+        { "name": "3DS EXT1070 1P 2.0 nozzle", "sub_path": "machine/3DS EXT1070 1P 2.0 nozzle.json" },
+        { "name": "3DS EXT1070 1P1M 2.0 nozzle", "sub_path": "machine/3DS EXT1070 1P1M 2.0 nozzle.json" },
+        { "name": "3DS EXT1070 2P 2.0 nozzle", "sub_path": "machine/3DS EXT1070 2P 2.0 nozzle.json" },
+        { "name": "3DS EXT1070 1P1S 2.0 nozzle", "sub_path": "machine/3DS EXT1070 1P1S 2.0 nozzle.json" },
+        { "name": "3DS EXT1270 1P 2.0 nozzle", "sub_path": "machine/3DS EXT1270 1P 2.0 nozzle.json" },
+        { "name": "3DS EXT1270 1P1M 2.0 nozzle", "sub_path": "machine/3DS EXT1270 1P1M 2.0 nozzle.json" },
+        { "name": "3DS EXT1270 2P 2.0 nozzle", "sub_path": "machine/3DS EXT1270 2P 2.0 nozzle.json" },
+        { "name": "3DS EXT1270 1P1S 2.0 nozzle", "sub_path": "machine/3DS EXT1270 1P1S 2.0 nozzle.json" }
+    ],
+    "filament_list": [
+        { "name": "3DS 10CF_ABS @3DS", "sub_path": "filament/3DS 10CF_ABS @3DS.json" }
+    ],
+    "process_list": [
+        { "name": "2.00mm Standard @3DS", "sub_path": "process/2.00mm Standard @3DS.json" }
+    ]
+}
