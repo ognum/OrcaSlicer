@@ -1,0 +1,30 @@
+{
+    "type": "filament",
+    "setting_id": "3DSTITAN_ABS_Pellet",
+    "name": "3DSTITAN ABS Pellet @3DS Titan Pellet",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_filament_common",
+    "filament_type": "ABS",
+    "filament_vendor": "3DSTITAN",
+    "compatible_printers": [
+        "3DS Titan Pellet EXT800 0.6 nozzle",
+        "3DS Titan Pellet EXT800 0.8 nozzle",
+        "3DS Titan Pellet EXT800 1.0 nozzle",
+        "3DS Titan Pellet EXT800 1.2 nozzle",
+        "3DS Titan Pellet EXT800 2.0 nozzle",
+        "3DS Titan Pellet EXT800 3.0 nozzle",
+        "3DS Titan Pellet EXT1070 0.6 nozzle",
+        "3DS Titan Pellet EXT1070 0.8 nozzle",
+        "3DS Titan Pellet EXT1070 1.0 nozzle",
+        "3DS Titan Pellet EXT1070 1.2 nozzle",
+        "3DS Titan. Pellet EXT1070 2.0 nozzle",
+        "3DS Titan Pellet EXT1070 3.0 nozzle",
+        "3DS Titan Pellet EXT1270 0.6 nozzle",
+        "3DS Titan Pellet EXT1270 0.8 nozzle",
+        "3DS Titan Pellet EXT1270 1.0 nozzle",
+        "3DS Titan Pellet EXT1270 1.2 nozzle",
+        "3DS Titan Pellet EXT1270 2.0 nozzle",
+        "3DS Titan Pellet EXT1270 3.0 nozzle"
+    ]
+}

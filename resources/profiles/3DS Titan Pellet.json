@@ -1,0 +1,136 @@
+{
+  "name": "3DS Titan Pellet",
+  "version": "01.00.00.00",
+  "force_update": "1",
+  "description": "3DS Titan Pellet printer profiles",
+  "machine_model_list": [
+    {
+      "name": "3DS Titan Pellet EXT800",
+      "sub_path": "machine/3DS Titan Pellet EXT800.json"
+    },
+    {
+      "name": "3DS Titan Pellet EXT1070",
+      "sub_path": "machine/3DS Titan Pellet EXT1070.json"
+    },
+    {
+      "name": "3DS Titan Pellet EXT1270",
+      "sub_path": "machine/3DS Titan Pellet EXT1270.json"
+    }
+  ],
+  "machine_list": [
+    {
+      "name": "fdm_machine_common",
+      "sub_path": "machine/fdm_machine_common.json"
+    },
+    { "name": "3DS Titan Pellet EXT800 0.6 nozzle", "sub_path": "machine/3DS Titan Pellet EXT800 0.6 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT800 0.8 nozzle", "sub_path": "machine/3DS Titan Pellet EXT800 0.8 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT800 1.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT800 1.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT800 1.2 nozzle", "sub_path": "machine/3DS Titan Pellet EXT800 1.2 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT800 2.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT800 2.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT800 3.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT800 3.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1070 0.6 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1070 0.6 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1070 0.8 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1070 0.8 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1070 1.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1070 1.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1070 1.2 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1070 1.2 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1070 2.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1070 2.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1070 3.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1070 3.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1270 0.6 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1270 0.6 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1270 0.8 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1270 0.8 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1270 1.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1270 1.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1270 1.2 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1270 1.2 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1270 2.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1270 2.0 nozzle.json" },
+    { "name": "3DS Titan Pellet EXT1270 3.0 nozzle", "sub_path": "machine/3DS Titan Pellet EXT1270 3.0 nozzle.json" }
+  ],
+  "process_list": [
+    {
+      "name": "fdm_process_common",
+      "sub_path": "process/fdm_process_common.json"
+    },
+    {"name": "0.12mm fine @3DS Titan Pellet EXT800 0.6 nozzle", "sub_path": "process/0.12mm fine @3DS Titan Pellet EXT800 0.6 nozzle.json"},
+    {"name": "0.30mm standard @3DS Titan Pellet EXT800 0.6 nozzle", "sub_path": "process/0.30mm standard @3DS Titan Pellet EXT800 0.6 nozzle.json"},
+    {"name": "0.39mm draft @3DS Titan Pellet EXT800 0.6 nozzle", "sub_path": "process/0.39mm draft @3DS Titan Pellet EXT800 0.6 nozzle.json"},
+    {"name": "0.48mm quick draft @3DS Titan Pellet EXT800 0.6 nozzle", "sub_path": "process/0.48mm quick draft @3DS Titan Pellet EXT800 0.6 nozzle.json"},
+    {"name": "0.16mm fine @3DS Titan Pellet EXT800 0.8 nozzle", "sub_path": "process/0.16mm fine @3DS Titan Pellet EXT800 0.8 nozzle.json"},
+    {"name": "0.40mm standard @3DS Titan Pellet EXT800 0.8 nozzle", "sub_path": "process/0.40mm standard @3DS Titan Pellet EXT800 0.8 nozzle.json"},
+    {"name": "0.52mm draft @3DS Titan Pellet EXT800 0.8 nozzle", "sub_path": "process/0.52mm draft @3DS Titan Pellet EXT800 0.8 nozzle.json"},
+    {"name": "0.64mm quick draft @3DS Titan Pellet EXT800 0.8 nozzle", "sub_path": "process/0.64mm quick draft @3DS Titan Pellet EXT800 0.8 nozzle.json"},
+    {"name": "0.20mm fine @3DS Titan Pellet EXT800 1.0 nozzle", "sub_path": "process/0.20mm fine @3DS Titan Pellet EXT800 1.0 nozzle.json"},
+    {"name": "0.50mm standard @3DS Titan Pellet EXT800 1.0 nozzle", "sub_path": "process/0.50mm standard @3DS Titan Pellet EXT800 1.0 nozzle.json"},
+    {"name": "0.65mm draft @3DS Titan Pellet EXT800 1.0 nozzle", "sub_path": "process/0.65mm draft @3DS Titan Pellet EXT800 1.0 nozzle.json"},
+    {"name": "0.80mm quick draft @3DS Titan Pellet EXT800 1.0 nozzle", "sub_path": "process/0.80mm quick draft @3DS Titan Pellet EXT800 1.0 nozzle.json"},
+    {"name": "0.24mm fine @3DS Titan Pellet EXT800 1.2 nozzle", "sub_path": "process/0.24mm fine @3DS Titan Pellet EXT800 1.2 nozzle.json"},
+    {"name": "0.60mm standard @3DS Titan Pellet EXT800 1.2 nozzle", "sub_path": "process/0.60mm standard @3DS Titan Pellet EXT800 1.2 nozzle.json"},
+    {"name": "0.78mm draft @3DS Titan Pellet EXT800 1.2 nozzle", "sub_path": "process/0.78mm draft @3DS Titan Pellet EXT800 1.2 nozzle.json"},
+    {"name": "0.96mm quick draft @3DS Titan Pellet EXT800 1.2 nozzle", "sub_path": "process/0.96mm quick draft @3DS Titan Pellet EXT800 1.2 nozzle.json"},
+    {"name": "0.40mm fine @3DS Titan Pellet EXT800 2.0 nozzle", "sub_path": "process/0.40mm fine @3DS Titan Pellet EXT800 2.0 nozzle.json"},
+    {"name": "1.00mm standard @3DS Titan Pellet EXT800 2.0 nozzle", "sub_path": "process/1.00mm standard @3DS Titan Pellet EXT800 2.0 nozzle.json"},
+    {"name": "1.30mm draft @3DS Titan Pellet EXT800 2.0 nozzle", "sub_path": "process/1.30mm draft @3DS Titan Pellet EXT800 2.0 nozzle.json"},
+    {"name": "1.60mm quick draft @3DS Titan Pellet EXT800 2.0 nozzle", "sub_path": "process/1.60mm quick draft @3DS Titan Pellet EXT800 2.0 nozzle.json"},
+    {"name": "0.60mm fine @3DS Titan Pellet EXT800 3.0 nozzle", "sub_path": "process/0.60mm fine @3DS Titan Pellet EXT800 3.0 nozzle.json"},
+    {"name": "1.50mm standard @3DS Titan Pellet EXT800 3.0 nozzle", "sub_path": "process/1.50mm standard @3DS Titan Pellet EXT800 3.0 nozzle.json"},
+    {"name": "1.95mm draft @3DS Titan Pellet EXT800 3.0 nozzle", "sub_path": "process/1.95mm draft @3DS Titan Pellet EXT800 3.0 nozzle.json"},
+    {"name": "2.40mm quick draft @3DS Titan Pellet EXT800 3.0 nozzle", "sub_path": "process/2.40mm quick draft @3DS Titan Pellet EXT800 3.0 nozzle.json"},
+    {"name": "0.12mm fine @3DS Titan Pellet EXT1070 0.6 nozzle", "sub_path": "process/0.12mm fine @3DS Titan Pellet EXT1070 0.6 nozzle.json"},
+    {"name": "0.30mm standard @3DS Titan Pellet EXT1070 0.6 nozzle", "sub_path": "process/0.30mm standard @3DS Titan Pellet EXT1070 0.6 nozzle.json"},
+    {"name": "0.39mm draft @3DS Titan Pellet EXT1070 0.6 nozzle", "sub_path": "process/0.39mm draft @3DS Titan Pellet EXT1070 0.6 nozzle.json"},
+    {"name": "0.48mm quick draft @3DS Titan Pellet EXT1070 0.6 nozzle", "sub_path": "process/0.48mm quick draft @3DS Titan Pellet EXT1070 0.6 nozzle.json"},
+    {"name": "0.16mm fine @3DS Titan Pellet EXT1070 0.8 nozzle", "sub_path": "process/0.16mm fine @3DS Titan Pellet EXT1070 0.8 nozzle.json"},
+    {"name": "0.40mm standard @3DS Titan Pellet EXT1070 0.8 nozzle", "sub_path": "process/0.40mm standard @3DS Titan Pellet EXT1070 0.8 nozzle.json"},
+    {"name": "0.52mm draft @3DS Titan Pellet EXT1070 0.8 nozzle", "sub_path": "process/0.52mm draft @3DS Titan Pellet EXT1070 0.8 nozzle.json"},
+    {"name": "0.64mm quick draft @3DS Titan Pellet EXT1070 0.8 nozzle", "sub_path": "process/0.64mm quick draft @3DS Titan Pellet EXT1070 0.8 nozzle.json"},
+    {"name": "0.20mm fine @3DS Titan Pellet EXT1070 1.0 nozzle", "sub_path": "process/0.20mm fine @3DS Titan Pellet EXT1070 1.0 nozzle.json"},
+    {"name": "0.50mm standard @3DS Titan Pellet EXT1070 1.0 nozzle", "sub_path": "process/0.50mm standard @3DS Titan Pellet EXT1070 1.0 nozzle.json"},
+    {"name": "0.65mm draft @3DS Titan Pellet EXT1070 1.0 nozzle", "sub_path": "process/0.65mm draft @3DS Titan Pellet EXT1070 1.0 nozzle.json"},
+    {"name": "0.80mm quick draft @3DS Titan Pellet EXT1070 1.0 nozzle", "sub_path": "process/0.80mm quick draft @3DS Titan Pellet EXT1070 1.0 nozzle.json"},
+    {"name": "0.24mm fine @3DS Titan Pellet EXT1070 1.2 nozzle", "sub_path": "process/0.24mm fine @3DS Titan Pellet EXT1070 1.2 nozzle.json"},
+    {"name": "0.60mm standard @3DS Titan Pellet EXT1070 1.2 nozzle", "sub_path": "process/0.60mm standard @3DS Titan Pellet EXT1070 1.2 nozzle.json"},
+    {"name": "0.78mm draft @3DS Titan Pellet EXT1070 1.2 nozzle", "sub_path": "process/0.78mm draft @3DS Titan Pellet EXT1070 1.2 nozzle.json"},
+    {"name": "0.96mm quick draft @3DS Titan Pellet EXT1070 1.2 nozzle", "sub_path": "process/0.96mm quick draft @3DS Titan Pellet EXT1070 1.2 nozzle.json"},
+    {"name": "0.40mm fine @3DS Titan Pellet EXT1070 2.0 nozzle", "sub_path": "process/0.40mm fine @3DS Titan Pellet EXT1070 2.0 nozzle.json"},
+    {"name": "1.00mm standard @3DS Titan Pellet EXT1070 2.0 nozzle", "sub_path": "process/1.00mm standard @3DS Titan Pellet EXT1070 2.0 nozzle.json"},
+    {"name": "1.30mm draft @3DS Titan Pellet EXT1070 2.0 nozzle", "sub_path": "process/1.30mm draft @3DS Titan Pellet EXT1070 2.0 nozzle.json"},
+    {"name": "1.60mm quick draft @3DS Titan Pellet EXT1070 2.0 nozzle", "sub_path": "process/1.60mm quick draft @3DS Titan Pellet EXT1070 2.0 nozzle.json"},
+    {"name": "0.60mm fine @3DS Titan Pellet EXT1070 3.0 nozzle", "sub_path": "process/0.60mm fine @3DS Titan Pellet EXT1070 3.0 nozzle.json"},
+    {"name": "1.50mm standard @3DS Titan Pellet EXT1070 3.0 nozzle", "sub_path": "process/1.50mm standard @3DS Titan Pellet EXT1070 3.0 nozzle.json"},
+    {"name": "1.95mm draft @3DS Titan Pellet EXT1070 3.0 nozzle", "sub_path": "process/1.95mm draft @3DS Titan Pellet EXT1070 3.0 nozzle.json"},
+    {"name": "2.40mm quick draft @3DS Titan Pellet EXT1070 3.0 nozzle", "sub_path": "process/2.40mm quick draft @3DS Titan Pellet EXT1070 3.0 nozzle.json"},
+    {"name": "0.12mm fine @3DS Titan Pellet EXT1270 0.6 nozzle", "sub_path": "process/0.12mm fine @3DS Titan Pellet EXT1270 0.6 nozzle.json"},
+    {"name": "0.30mm standard @3DS Titan Pellet EXT1270 0.6 nozzle", "sub_path": "process/0.30mm standard @3DS Titan Pellet EXT1270 0.6 nozzle.json"},
+    {"name": "0.39mm draft @3DS Titan Pellet EXT1270 0.6 nozzle", "sub_path": "process/0.39mm draft @3DS Titan Pellet EXT1270 0.6 nozzle.json"},
+    {"name": "0.48mm quick draft @3DS Titan Pellet EXT1270 0.6 nozzle", "sub_path": "process/0.48mm quick draft @3DS Titan Pellet EXT1270 0.6 nozzle.json"},
+    {"name": "0.16mm fine @3DS Titan Pellet EXT1270 0.8 nozzle", "sub_path": "process/0.16mm fine @3DS Titan Pellet EXT1270 0.8 nozzle.json"},
+    {"name": "0.40mm standard @3DS Titan Pellet EXT1270 0.8 nozzle", "sub_path": "process/0.40mm standard @3DS Titan Pellet EXT1270 0.8 nozzle.json"},
+    {"name": "0.52mm draft @3DS Titan Pellet EXT1270 0.8 nozzle", "sub_path": "process/0.52mm draft @3DS Titan Pellet EXT1270 0.8 nozzle.json"},
+    {"name": "0.64mm quick draft @3DS Titan Pellet EXT1270 0.8 nozzle", "sub_path": "process/0.64mm quick draft @3DS Titan Pellet EXT1270 0.8 nozzle.json"},
+    {"name": "0.20mm fine @3DS Titan Pellet EXT1270 1.0 nozzle", "sub_path": "process/0.20mm fine @3DS Titan Pellet EXT1270 1.0 nozzle.json"},
+    {"name": "0.50mm standard @3DS Titan Pellet EXT1270 1.0 nozzle", "sub_path": "process/0.50mm standard @3DS Titan Pellet EXT1270 1.0 nozzle.json"},
+    {"name": "0.65mm draft @3DS Titan Pellet EXT1270 1.0 nozzle", "sub_path": "process/0.65mm draft @3DS Titan Pellet EXT1270 1.0 nozzle.json"},
+    {"name": "0.80mm quick draft @3DS Titan Pellet EXT1270 1.0 nozzle", "sub_path": "process/0.80mm quick draft @3DS Titan Pellet EXT1270 1.0 nozzle.json"},
+    {"name": "0.24mm fine @3DS Titan Pellet EXT1270 1.2 nozzle", "sub_path": "process/0.24mm fine @3DS Titan Pellet EXT1270 1.2 nozzle.json"},
+    {"name": "0.60mm standard @3DS Titan Pellet EXT1270 1.2 nozzle", "sub_path": "process/0.60mm standard @3DS Titan Pellet EXT1270 1.2 nozzle.json"},
+    {"name": "0.78mm draft @3DS Titan Pellet EXT1270 1.2 nozzle", "sub_path": "process/0.78mm draft @3DS Titan Pellet EXT1270 1.2 nozzle.json"},
+    {"name": "0.96mm quick draft @3DS Titan Pellet EXT1270 1.2 nozzle", "sub_path": "process/0.96mm quick draft @3DS Titan Pellet EXT1270 1.2 nozzle.json"},
+    {"name": "0.40mm fine @3DS Titan Pellet EXT1270 2.0 nozzle", "sub_path": "process/0.40mm fine @3DS Titan Pellet EXT1270 2.0 nozzle.json"},
+    {"name": "1.00mm standard @3DS Titan Pellet EXT1270 2.0 nozzle", "sub_path": "process/1.00mm standard @3DS Titan Pellet EXT1270 2.0 nozzle.json"},
+    {"name": "1.30mm draft @3DS Titan Pellet EXT1270 2.0 nozzle", "sub_path": "process/1.30mm draft @3DS Titan Pellet EXT1270 2.0 nozzle.json"},
+    {"name": "1.60mm quick draft @3DS Titan Pellet EXT1270 2.0 nozzle", "sub_path": "process/1.60mm quick draft @3DS Titan Pellet EXT1270 2.0 nozzle.json"},
+    {"name": "0.60mm fine @3DS Titan Pellet EXT1270 3.0 nozzle", "sub_path": "process/0.60mm fine @3DS Titan Pellet EXT1270 3.0 nozzle.json"},
+    {"name": "1.50mm standard @3DS Titan Pellet EXT1270 3.0 nozzle", "sub_path": "process/1.50mm standard @3DS Titan Pellet EXT1270 3.0 nozzle.json"},
+    {"name": "1.95mm draft @3DS Titan Pellet EXT1270 3.0 nozzle", "sub_path": "process/1.95mm draft @3DS Titan Pellet EXT1270 3.0 nozzle.json"},
+    {"name": "2.40mm quick draft @3DS Titan Pellet EXT1270 3.0 nozzle", "sub_path": "process/2.40mm quick draft @3DS Titan Pellet EXT1270 3.0 nozzle.json"}
+  ],
+  "filament_list": [
+    {
+      "name": "fdm_filament_common",
+      "sub_path": "filament/fdm_filament_common.json"
+    },
+    {
+      "name": "3DSTITAN 10CF ABS Pellet @3DS Titan Pellet",
+      "sub_path": "filament/3DSTITAN 10CF ABS Pellet @3DS Titan Pellet.json"
+    },
+    {
+      "name": "3DSTITAN ABS Pellet @3DS Titan Pellet",
+      "sub_path": "filament/3DSTITAN ABS Pellet @3DS Titan Pellet.json"
+    }
+  ]
+}

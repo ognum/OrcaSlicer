@@ -1,0 +1,11 @@
+{
+    "type": "process",
+    "name": "1.95mm draft @3DS Titan Pellet EXT800 3.0 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_process_common",
+    "layer_height": "1.95",
+    "compatible_printers": [
+        "3DS Titan Pellet EXT800 3.0 nozzle"
+    ]
+}

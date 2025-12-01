@@ -1,0 +1,11 @@
+{
+    "type": "process",
+    "name": "1.00mm standard @3DS Titan Pellet EXT1270 2.0 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_process_common",
+    "layer_height": "1.00",
+    "compatible_printers": [
+        "3DS Titan Pellet EXT1270 2.0 nozzle"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "process",
+    "name": "0.20mm fine @3DS Titan Pellet EXT800 1.0 nozzle",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_process_common",
+    "layer_height": "0.20",
+    "compatible_printers": [
+        "3DS Titan Pellet EXT800 1.0 nozzle"
+    ]
+}

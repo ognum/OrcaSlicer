@@ -1,0 +1,11 @@
+{
+  "type": "machine_model",
+  "name": "3DS Titan Pellet EXT1070",
+  "nozzle_diameter": "0.6;0.8;1.0;1.2;2.0;3.0",
+  "bed_model": "..\..\Custom\Custom_350_bed.stl",
+  "bed_texture": "..\..\Custom\orcaslicer_bed_texture.svg",
+  "model_id": "3DS_Titan_Pellet_EXT1070",
+  "family": "3DS Titan Pellet",
+  "machine_tech": "FFF",
+  "default_materials": "3DSTITAN 10CF ABS Pellet;3DSTITAN ABS Pellet"
+}

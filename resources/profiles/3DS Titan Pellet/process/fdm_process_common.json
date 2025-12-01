@@ -1,0 +1,10 @@
+{
+    "type": "process",
+    "name": "fdm_process_common",
+    "from": "system",
+    "instantiation": "false",
+    "bottom_shell_layers": "3",
+    "top_shell_layers": "3",
+    "sparse_infill_density": "15%",
+    "wall_loops": "2"
+}

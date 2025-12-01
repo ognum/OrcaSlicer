@@ -1,0 +1,21 @@
+#please use the How-to-create-profiles in OrcaSlicer\doc\developer-reference
+
+#Printer will be Marlin Based
+
+#please use Placeholder png and svg files where necessary but make the files names correct for the context. just use the Marlin printer images in /resources/profiles
+/Custom/
+
+#layer Height is noted here as % of nozzle_diameter please place the appropriate decimal values in the profiles
+
+vendor_name = "3DS Titan Pellet"
+printer_name =["EXT800", "EXT1070", "EXT1270"]
+printer_variant_name = []
+nozzle_diamter = [0.6, 0.8, 1.0, 1.2, 2.0, 3.0]
+filament_vendor_name = "3DSTITAN"
+filament_name = ["10CF ABS Pellet","ABS Pellet"]
+layer_height = [20%, 50%, 65%, 80%]
+preset_name = ["fine" "standard" "draft" "quick draft"
+
+
+
+

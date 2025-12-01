@@ -1,0 +1,18 @@
+{
+  "type": "machine",
+  "setting_id": "GTP_EXT800_12",
+  "name": "3DS Titan Pellet EXT800 1.2 nozzle",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_machine_common",
+  "printer_model": "3DS Titan Pellet EXT800",
+  "nozzle_diameter": ["1.2"],
+  "printer_variant": "1.2 nozzle",
+  "printable_area": [
+    "0x0",
+    "800x0",
+    "800x800",
+    "0x800"
+  ],
+  "printable_height": "800"
+}
